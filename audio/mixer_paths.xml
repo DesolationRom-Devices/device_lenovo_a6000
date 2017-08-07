@@ -570,6 +570,8 @@
         <ctl name="IIR1 INP1 MUX" value="DEC1" />
          <ctl name="ADC1 Volume" value="18" />
          <ctl name="DEC1 Volume" value="92" />
+        <ctl name="ADC1 Volume" value="18" />
+        <ctl name="DEC1 Volume" value="92" />
     </path>
 
     <path name="handset">
@@ -595,6 +597,7 @@
         <ctl name="HPHL" value="Switch" />
         <ctl name="HPHR" value="Switch" />
         <ctl name="Lineout_1 amp" value="DISABLE" />
+	<ctl name="Lineout_1 amp" value="DISABLE" />
     </path>
 
     <path name="headset-mic">
@@ -808,6 +811,16 @@
      </path>
         
      <path name="ADSP testfwk">
+
+    <path name="unprocessed-handset-mic">
+        <path name="handset-mic" />
+    </path>
+
+    <path name="unprocessed-mic">
+        <path name="unprocessed-handset-mic" />
+    </path>
+
+    <path name="ADSP testfwk">
         <ctl name="MI2S_DL_HL Switch" value="1" />
     </path>
 
