@@ -1,8 +1,8 @@
 [
   {
-    "repository": "DesolationRom-Devices/android_device_cyanogen_msm8916-common",
-    "target_path": "device/cyanogen/msm8916-common"
-    "branch": "n"
+    "repository": "DesolationRom-Devices/android_device_lenovo_msm8916-common",
+    "target_path": "device/lenovo/msm8916-common"
+    "branch": "cm-14.1"
   },
   {
    "repository": "DesolationRom-Devices/kernel_lenovo_msm8916",
